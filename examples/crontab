@@ -1,0 +1,5 @@
+MAILTO=ops@example.com
+0 2 * * * /opt/bin/backup-db.sh
+0 2 * * * /opt/bin/rotate-logs.sh
+0 * * * * /opt/bin/sync-cache.sh
+0 0 * * * /opt/bin/daily-report.sh
